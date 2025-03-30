@@ -1,0 +1,16 @@
+URL SHORTENER
+
+desgin a url shortner service that takes in a valid URL and returns a shortened URL,redirecting the user to the previously provided URL.
+
+Also keep track of total visits/clicks on the URL 
+
+routes
+POST/URL Generates a new short URL and returns the shortened URL 
+
+GET/:id-redirects the user to the orginal URL 
+
+GET/URL/analtics/:id -returns the clicks for thr provided short id 
+
+how to create schema and model in mongoose 
+// in user signup add checking 
+
